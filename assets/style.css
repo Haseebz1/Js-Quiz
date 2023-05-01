@@ -1,21 +1,40 @@
  body {
-    background-color: aquamarine;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    height: auto;
-    
- }
- header {
-display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
+     background-color: aquamarine;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     height: auto;
 
  }
+
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: auto;
+
+ }
+
  main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    line-height: 2.0;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     line-height: 2.0;
+
+ }
+
+ .hidden {
+     display: none;
+ }
+
+ #message {
+     font-weight: bold;
+     background-color: yellow;
+ }
+
+ .option {
+     background-color: rgb(121, 121, 129);
+     margin: 5px;
+     color: aliceblue;
+     padding: 5px;
 
  }

@@ -1,13 +1,3 @@
-# Js-Quiz
- 04 Web APIs: Code Quiz
-
-## Your Task
-
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
-
-To help familiarize you with these tests and allow you to use the skills covered in this module, this Challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
-
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
 
 ## User Story
 
@@ -33,8 +23,18 @@ WHEN the game is over
 THEN I can save my initials and my score
 ```
 
-## Mock-Up
+## conclusion
 
-The following animation demonstrates the application functionality:
+Made website where user can answer the quiz in set time given . if user answer wrong question it 
+will substract 10second from remaining second .After completing quiz user can add their intials and save . 
+score and intials are saved in local storage.
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
+## github link 
+
+
+
+## deployed link 
+
+
+
+## screenShot 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,38 +9,41 @@
     <link rel="stylesheet" href="./style.css">
     <title>js-quiz</title>
 </head>
+
 <body>
-<header>
-    <div> 
-        <a> High score </a> 
-    </div>
-    <div id ="timer"> Timer  </div>
-    
-    
-</header>
-<main>
-    <div id="welcome" >
-         <h1> welcome to JS Quiz</h1>
-    
-    <button id="Start Quiz"> Start Quiz </button>
-    </div>
+    <header>
+        <div id="highscores">
+            <a href="/scores.html"> High Scores</a>
+        </div>
+        <div id="appTimer"></div>
+    </header>
+    <main>
+        <div id="welcome">
+            <h1>Welcome to JS Quiz</h1>
 
-    <div id="=question"> </div>
+            <button id="startQuiz" class="btn">Start Quiz</button>
+        </div>
 
-    <div id="options"> </div>
+        <div id="quiz" class="hidden">
+            <div id="question"> </div>
 
-    <div id="message"> </div>
+            <div id="options"> </div>
 
-    <div id="summary"> </div>
-    <button> View all High Score </button>
-    <input type="text" id="initials"  Name="enter your initials"/>
-    <button >Save Score </button>
-    <button> play again  </button>
+            <div id="message"> </div>
 
-</main>
+        </div>
 
-    
-    <script src="script.js"> </script>  
+        <div id="result" class="hidden">
+            <div id="summary"></div>
+            <button id="viewScores" class="btn"> View all High Score </button>
+            <input type="text" id="initials" placeholder="enter your initials" />
+            <button id="saveScore" class="btn">Save Score </button>
+            <button id="playAgain" class="btn"> play again </button>
+        </div>
+
+    </main>
 
 </body>
+<script src="./js/questions.js"></script>
+<script src="script.js"> </script>
 </html>
