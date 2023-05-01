@@ -31,10 +31,12 @@ score and intials are saved in local storage.
 
 ## github link 
 
+https://github.com/Haseebz1/Js-Quiz.git
 
 
 ## deployed link 
 
+https://haseebz1.github.io/Js-Quiz/
 
 
 ## screenShot 
