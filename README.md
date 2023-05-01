@@ -40,3 +40,5 @@ https://haseebz1.github.io/Js-Quiz/
 
 
 ## screenShot 
+
+![code quiz](./assets/Screenshot.PNG)
